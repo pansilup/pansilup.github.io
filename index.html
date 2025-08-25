@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pansilu Pitigalaarachchi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    .img {
+      width:85%;
+    }
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .tabbed{
+      padding-left:1em;
+    }
+    table {
+      border-spacing: 5px;
+    }
+    p {
+      font-size: 115%;
+    }
+    @viewport {
+      width: device-width ;
+      zoom: 1.0 ;
+    }
+    hr {
+      height:3px;
+      border-width:0;
+      background-color:#808080;
+      width: 100%;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-12">
+      <table align="center">
+        <tr>
+          <td width = 60%>
+            <p>
+              <div><h1 style="padding-top:50px">Pansilu Pitigalaarachchi</h1></div>
+              <br><b>Ph.D. Candidate</b>
+              <br>School of Computing and Information Systems 
+              <br>SMU Singapore
+              <br><span class="glyphicon glyphicon-envelope"></span> pansilu.2020 [AT] phdcs [DOT] smu [DOT] edu [DOT] sg
+              <br><br>
+              <a href="https://github.com/pansilup" target="_blank">
+                <img src="https://img.shields.io/badge/GitHub-black?logo=github" alt="GitHub Repo">
+              </a>
+              <!-- <a href="CV.pdf" class="btn btn-outline-secondary" role="button"><b>CV</b></a> -->
+            </p>
+          </td>
+          <td>
+            <div class="img">
+              <img src="photo.jpg" class="img-thumbnail" alt="Pansilu Pitigalaarachchi" width="424" height="346">
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-sm-10">
+    <h3>About Me</h3>
+    <p>
+      I am pursuing my Ph.D. in Computer Science at SMU Singapore, where I am fortunate to be advised by Prof. <a href="http://www.mysmu.edu/faculty/xhding/">Xuhua Ding</a>. 
+      
+      My research interests are in <b>Software and Systems Security</b>, <b>Program Analysis</b> and <b>Symbolic Execution</b>.
+      
+      <br><br>
+      My research is driven by the goal of advancing the analysis of system programs (e.g., OS kernels and TEE firmware) and strengthening software and system security.      
+      
+      Currently, I focus on a few key challenges in this domain: (1) the difficulty of dynamically analyzing system programs that are tightly coupled with hardware and system state, (2) establishing a foothold for analyzer software to run and conduct analysis on these programs, and (3) performing program analysis with precise binary-level control and reasoning.      
+      
+      <br><br>
+      My work develops specialized environments using hypervisors and virtualization to host system programs, along with tools to manage their runtime state and enable analyzer software to introspect execution. By combining traditional dynamic binary analysis with symbolic execution, my work enables precise control and deep binary-level reasoning for complex analysis tasks. I enjoy tackling difficult systems-level challenges, working with C, C++, and assembly, and exploring the low-level interactions between hardware and software.      
+      
+      <br><br>
+      Before my Ph.D. journey, I completed both my B.Sc. in Electronic and Telecommunication Engineering (2014) and my M.Sc. in Security Engineering (Computer Science, 2020) at the University of Moratuwa, Sri Lanka.
+    </p>
+    <hr>
+  </div>
+  <br>
+
+  <div class="col-sm-10">
+
+    <h3>Publications</h3>
+    <p>
+      <li><b>A System Framework to Symbolically Explore Intel TDX Module Execution.</b> 
+        <a href="TDXplorer-ccs25.pdf" target="_blank">
+          <img src="https://img.icons8.com/fluency/32/0000FF/pdf.png" alt="PDF">
+        </a>
+        <a href="https://github.com/pansilup/TDxplorer" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub Repo">
+        </a>
+        </li>
+      <div>
+        Pansilu Pitigalaarachchi, Xuhua Ding <br>
+        ACM CCS 2025
+      </div>
+
+      <br>
+
+      <li><b>KRover: A Symbolic Execution Engine for Dynamic Kernel Analysis. </b>
+        <a href="KRover-ccs23(long-version).pdf" target="_blank">
+          <img src="https://img.icons8.com/fluency/32/0000FF/pdf.png" alt="PDF">
+        </a>
+        <a href="https://github.com/pansilup/KRover" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub Repo">
+        </a>
+        </li>
+      <div>
+        Pansilu Pitigalaarachchi, Xuhua Ding, Haiqing Qiu, Haoxin Tu, Jiaqi Hong, Lingxiao Jiang <br>
+        ACM CCS 2023
+      </div>
+    </p>
+    <br>
+    <hr>
+  </div>
+
+  <div class="col-sm-10">
+    <h3>Projects and Tools</h3>
+    <p>
+      <li><b>TDXplorer – Intel TDX Emulation and Analysis</b></li>
+      <div>
+        A framework to execute the Intel TDX Module without TDX hardware, enabling
+        systems-level analysis with dynamic analysis and symbolic execution. Features:
+        <ul>
+          <li>Run the TDX Module on a desktop PC with no hardware dependency.</li>
+          <li>Supports a wide variety of API calls: SEAM calls from the VMM and TD calls from guest VMs (TDs).</li>
+          <li>Traditional dynamic analysis: software and hardware breakpoints (INT3, DR breakpoints), single stepping.</li>
+          <li>Instruction and basic block tracing.</li>
+          <li>Symbolic execution for in-depth analysis.</li>
+          <a href="https://github.com/pansilup/TDXplorer" target="_blank">
+            <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub Repo">
+          </a>
+        </ul>
+      </div>
+
+      <li><b>KRover – Dynamic Kernel Analysis</b></li>
+      <div>
+        A framework for kernel thread analysis combining symbolic execution with traditional dynamic analysis. Features:
+        <ul>
+          <li>Facilitates dynamic analysis of a single live kernel thread.</li>
+          <li>User-programmable analysis for fine-grained binary-level control and runtime introspection of the target thread.</li>
+          <li>Fast symbolic execution with native dispatch of non-symbolic instructions.</li>
+          <li>Multiple analysis modes in one run: delayed symbolic start, seeded execution, and path exploration.</li>
+          <li>Traditional dynamic analysis: software/hardware breakpoints (INT3, DR), single stepping.</li>
+          <li>User–kernel cross-space analysis.</li>
+          <a href="https://github.com/pansilup/KRover" target="_blank">
+            <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub Repo">
+          </a>        </ul>
+      </div>
+
+      <li><b>Analyzing TDX on Intel TDX Hardware</b></li>
+      <div>
+        A set of LKMs for analyzing and experimenting on Intel TDX platforms:
+        <ul>
+          <li><b>TDcaller</b> – Issue arbitrary TD calls to the TDX Module.
+            <a href="https://github.com/pansilup/TDcaller" target="_blank">
+              <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub Repo">
+            </a>          </li>
+          <li><b>SEAMcaller</b> – Intercept SEAM calls from the VMM, modify arguments, and issue arbitrary SEAM calls to the TDX Module.
+            <a href="https://github.com/pansilup/SEAMcaller" target="_blank">
+              <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub Repo">
+            </a>          </li>
+        </ul>
+      </div>
+
+      <li><b>Miscellaneous tools</b></li>
+      <div>
+        <ul>
+          <li>User space Symbolic Execution with KLEE: Given a seed, generating KTest files for guiding execution along a specific path during symbolic execution.
+              <a href="https://github.com/pansilup/ktest-gen-for-klee" target="_blank">
+                <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub Repo">
+              </a>          </li>
+              <li>Page Table Mapping: LKM-an IOCTL to remap user process page frames into a new VA range. 
+              <a href="https://github.com/pansilup/pt-manip-ioctl" target="_blank">
+              <img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub Repo">
+            </a>          </li>
+        </ul>
+      </div>
+
+    </p>
+
+    <br>
+
+    </p>
+    <hr>
+  </div>
+
+
+</div>
+
+</body>
+</html>
