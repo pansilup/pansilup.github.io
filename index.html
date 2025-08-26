@@ -137,6 +137,9 @@
     <h3>Projects and Tools</h3>
     <p>
       <li><b>TDXplorer – Intel TDX Emulation and Analysis</b></li>
+      <div class="img">
+        <img src="tdxplorer-arch.png" class="img-thumbnail" alt="TDXplorer System Architecture" width="424" height="346">
+      </div>
       <div>
         A framework to execute the Intel TDX Module without TDX hardware, enabling systems-level analysis through dynamic and symbolic execution. 
         It is the <b><em>first dynamic symbolic analysis system for Intel's TDX Module.</em></b> Features:        
@@ -153,6 +156,9 @@
       </div>
 
       <li><b>KRover – Dynamic Kernel Analysis</b></li>
+      <div class="img">
+        <img src="krover-arch.png" class="img-thumbnail" alt="KRover System Architecture" width="424" height="346">
+      </div>
       <div>
         A framework for kernel thread analysis combining symbolic execution with traditional dynamic analysis. Features:
         <ul>
@@ -168,8 +174,11 @@
       </div>
 
       <li><b>Analyzing TDX on Intel TDX Hardware</b></li>
+      <div class="img">
+        <img src="tdx-arch.png" class="img-thumbnail" alt="TDX System Architecture" width="424" height="346">
+      </div>
       <div>
-        A set of LKMs for analyzing and experimenting on Intel TDX platforms:
+        A set of LKMs running on VMM and TD (VM) for analyzing and experimenting on Intel TDX platforms:
         <ul>
           <li><b>TDcaller</b> – Issue arbitrary TD calls to the TDX Module.
             <a href="https://github.com/pansilup/TDcaller" target="_blank">
